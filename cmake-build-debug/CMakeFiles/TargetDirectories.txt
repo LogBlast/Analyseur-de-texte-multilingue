@@ -1,0 +1,3 @@
+C:/Users/MyriamELGARHI/CLionProjects/fisa34-projet4/cmake-build-debug/CMakeFiles/fisa34_projet4.dir
+C:/Users/MyriamELGARHI/CLionProjects/fisa34-projet4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/MyriamELGARHI/CLionProjects/fisa34-projet4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

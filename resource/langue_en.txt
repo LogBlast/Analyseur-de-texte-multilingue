@@ -1,0 +1,73 @@
+// V1.01 : 13/12/24-17:00
+// Language: English
+
+//main.c
+
+entrer_ChemEntree=Enter the input file path:
+entrer_ChemSortie=Enter the output file path:
+succes_Ouverture=File opened successfully
+erreur_Ouverture=Error opening the file
+
+menuAff_Ouverture=Menu:
+menuAff_CompterLignes=Count lines
+menuAff_CompterMots=Count words
+menuAff_CompterCaracteres=Count characters
+menuAff_MotsFrequents=Show frequent words
+menuAff_SauvResultats=Save results
+menuAff_ChangerFichierEntree=Change input file
+menuAff_Comparaison=Compare files
+menuAff_Palindromes=Show palindromes
+menuAff_AnalysePhrases=Analyze sentences
+menuAff_Quitter=Quit
+menuAff_Choix=Enter your choice:
+menuAff_ouvrirFichierSortie=Open the output file
+
+switchAff_NbLignes=Number of lines:
+switchAff_NbMots=Total number of words:
+switchAff_NbCaracteres=Total number of characters (excluding spaces and new lines):
+switchAff_Chemin=Enter a new file path:
+switchAff_Quitter=Goodbye!
+switchAff_Erreur=Error: invalid choice, please try again.
+switchAff_Analyser=Here is the analysis of your text:
+switchAff_ouvertureFichierSortie=Opening the output file.
+
+//analyseur.c
+
+fonct_OuvrirFichier_Erreur=Error opening the file. Enter a valid path:
+
+fonct_afficherMotsFrequents_aff=most frequent words are:
+fonct_afficherMotsFrequents_fois=times
+
+fonct_sauvegarderResultats_erreurOuverture=Error: Unable to open the output file
+fonct_sauvegarderResultats_sauv_Aff=Here is the backup of your data:
+fonct_sauvegarderResultats_sauv_Lignes=Number of lines:
+fonct_sauvegarderResultats_sauv_Mots=Number of words:
+fonct_sauvegarderResultats_sauv_Caracteres=Number of characters:
+fonct_sauvegarderResultats_sauv_MotsDistincts=Number of distinct words:
+fonct_sauvegarderResultats_sauv_MotsFrequents=List of words and their frequencies:
+fonct_sauvegarderResultats_sauv_Palindromes=List of palindromes:
+fonct_sauvegarderResultats_sauv_credits=Made by Esteban, Myriam, and Samet.
+fonct_sauvegarderResultats_affSauv=The results have been saved in the file
+
+
+fonct_MenuComp_StatsFichier1=Statistics of file 1:
+fonct_MenuComp_nbLignes=Number of lines
+fonct_MenuComp_nbMots=Number of words
+fonct_MenuComp_nbCaracteres=Number of characters
+fonct_MenuComp_nbMotsDistincts=Number of distinct words
+
+fonct_MenuComp_StatsFichier2=Statistics of file 2:
+fonct_MenuComp_nbMotsCommuns=Number of common words
+fonct_MenuComp_nbMotsUniqueFichier1=Number of unique words in file 1
+fonct_MenuComp_nbMotsUniqueFichier2=Number of unique words in file 2
+
+menuAff_Comp_Fichier1=Enter the path of the first file:
+menuAff_Comp_Fichier2=Enter the path of the second file:
+menuAff_Comp_FichierSortie=Enter the path of the output file:
+
+analysePhrases_longueurMoyenne=Average length of sentences
+analysePhrases_phrasePlusLongue=Longest sentence
+analysePhrases_phrasePlusCourte=Shortest sentence
+
+result_palindrome_yes=Palindrome(s) found :
+result_palindrome_no=No palindrome found.

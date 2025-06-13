@@ -1,0 +1,76 @@
+// V1.01 : 19/12/24-16:00
+// Langue: Français
+
+//main.c
+
+entrer_ChemEntree=Entrer le chemin du fichier d'entrée :
+entrer_ChemSortie=Entrer le chemin du fichier de sortie :
+succes_Ouverture=Fichier ouvert avec succès
+erreur_Ouverture=Erreur lors de l'ouverture du fichier
+
+menuAff_Ouverture=Menu :
+menuAff_CompterLignes=Compter les lignes
+menuAff_CompterMots=Compter les mots
+menuAff_CompterCaracteres=Compter les caractères
+menuAff_MotsFrequents=Afficher les mots fréquents
+menuAff_SauvResultats=Sauvegarder les résultats
+menuAff_ChangerFichierEntree=Changer le fichier d'entrée
+menuAff_Comparaison=Comparer les fichiers
+menuAff_Palindromes=Afficher les palindromes
+menuAff_AnalysePhrases=Analyser les phrases
+menuAff_Quitter=Quitter
+menuAff_Choix=Entrez votre choix :
+menuAff_ouvrirFichierSortie=Ouvrir le fichier de sortie
+
+switchAff_NbLignes=Nombre de lignes :
+switchAff_NbMots=Nombre de mots :
+re total de mots :
+switchAff_NbCaracteres=Nombre total de caractères (sans espaces ni retours à la ligne) :
+switchAff_Chemin=Entrez un nouveau chemin de fichier :
+switchAff_Quitter=Au revoir !
+switchAff_Erreur=Erreur : choix invalide, veuillez réessayer.
+switchAff_Analyser=Voici l'analyse de votre texte :
+switchAff_ouvertureFichierSortie=Ouverture du fichier de sortie.
+
+//analyseur.c
+
+fonct_OuvrirFichier_Erreur=Erreur d'ouverture du fichier. Entrez un chemin valide:
+
+fonct_afficherMotsFrequents_aff=mots les plus fréquents sont :
+fonct_afficherMotsFrequents_fois=fois
+
+fonct_sauvegarderResultats_erreurOuverture=Erreur : Impossible d'ouvrir le fichier de sortie
+fonct_sauvegarderResultats_sauv_Aff=Voici la sauvegarde de vos donnees :
+fonct_sauvegarderResultats_sauv_Lignes=Nombre de lignes :
+fonct_sauvegarderResultats_sauv_Mots=Nombre de mots :
+fonct_sauvegarderResultats_sauv_Caracteres=Nombre de caracteres :
+fonct_sauvegarderResultats_sauv_MotsDistincts=Nombre de mots distincts :
+fonct_sauvegarderResultats_sauv_MotsFrequents=Liste des mots et leurs fréquences :
+fonct_sauvegarderResultats_sauv_Palindromes=Liste des palindromes :
+fonct_sauvegarderResultats_sauv_credits=Fait par Esteban, Myriam et Samet.
+fonct_sauvegarderResultats_affSauv=Les résultats ont été sauvegardés dans le fichier
+
+
+fonct_MenuComp_StatsFichier1=Statistiques du fichier 1 :
+fonct_MenuComp_nbLignes=Nombre de lignes
+fonct_MenuComp_nbMots=Nombre de mots
+fonct_MenuComp_nbCaracteres=Nombre de caractères
+fonct_MenuComp_nbMotsDistincts=Nombre de mots distincts
+
+fonct_MenuComp_StatsFichier2=Statistiques du fichier 2 :
+fonct_MenuComp_nbMotsCommuns=Nombre de mots communs
+fonct_MenuComp_nbMotsUniqueFichier1=Nombre de mots uniques dans le fichier 1
+fonct_MenuComp_nbMotsUniqueFichier2=Nombre de mots uniques dans le fichier 2
+
+menuAff_Comp_Fichier1=Entrez le chemin du premier fichier :
+menuAff_Comp_Fichier2=Entrez le chemin du deuxième fichier :
+menuAff_Comp_FichierSortie=Entrez le chemin du fichier de sortie :
+
+
+menuAff_AnalysePhrases=Analyse des phrases
+analysePhrases_longueurMoyenne=Longueur moyenne des phrases
+analysePhrases_phrasePlusLongue=Phrase la plus longue
+analysePhrases_phrasePlusCourte=Phrase la plus courte
+
+result_palindrome_yes=Palindrome(s) trouvé(s) :
+result_palindrome_no=Aucun palindrome trouvé.
