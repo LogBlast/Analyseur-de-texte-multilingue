@@ -77,3 +77,4 @@ menuAff_CompterLignes=Compter le nombre de lignes
 
 ## Auteur
 Développé dans le cadre d'un projet étudiant en C.
+Par DUBOIS Esteban, EL GARHI Myriam, BUCAK Samet
